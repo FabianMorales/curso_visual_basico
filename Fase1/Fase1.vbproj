@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50E79426-36CA-4068-83B7-986189898655}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Fase1.My.MyApplication</StartupObject>
+    <RootNamespace>Fase1</RootNamespace>
+    <AssemblyName>Fase1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Fase1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Fase1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ejercicio01\frmAreaSecreta.Designer.vb">
+      <DependentUpon>frmAreaSecreta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio01\frmAreaSecreta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio01\frmClave.Designer.vb">
+      <DependentUpon>frmClave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio01\frmClave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio02\frmCinematica.Designer.vb">
+      <DependentUpon>frmCinematica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio02\frmCinematica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio03\frmManejoImagenes.Designer.vb">
+      <DependentUpon>frmManejoImagenes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio03\frmManejoImagenes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio04\frmFiltroTexto.Designer.vb">
+      <DependentUpon>frmFiltroTexto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio04\frmFiltroTexto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio05\CEmpleado.vb" />
+    <Compile Include="ejercicio05\frmNomina.Designer.vb">
+      <DependentUpon>frmNomina.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio05\frmNomina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio06\CTemperatura.vb" />
+    <Compile Include="ejercicio06\frmConversionUnidades.Designer.vb">
+      <DependentUpon>frmConversionUnidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio06\frmConversionUnidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio07\frmConversionDivisas.Designer.vb">
+      <DependentUpon>frmConversionDivisas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio07\frmConversionDivisas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio08\frmConversionTemp.Designer.vb">
+      <DependentUpon>frmConversionTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio08\frmConversionTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio09\frmCalculoInteres.Designer.vb">
+      <DependentUpon>frmCalculoInteres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio09\frmCalculoInteres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio10\frmEcCuadratica.Designer.vb">
+      <DependentUpon>frmEcCuadratica.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio10\frmEcCuadratica.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicio.Designer.vb">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ejercicio01\frmAreaSecreta.resx">
+      <DependentUpon>frmAreaSecreta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio01\frmClave.resx">
+      <DependentUpon>frmClave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio02\frmCinematica.resx">
+      <DependentUpon>frmCinematica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio03\frmManejoImagenes.resx">
+      <DependentUpon>frmManejoImagenes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio04\frmFiltroTexto.resx">
+      <DependentUpon>frmFiltroTexto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio05\frmNomina.resx">
+      <DependentUpon>frmNomina.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio06\frmConversionUnidades.resx">
+      <DependentUpon>frmConversionUnidades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio07\frmConversionDivisas.resx">
+      <DependentUpon>frmConversionDivisas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio08\frmConversionTemp.resx">
+      <DependentUpon>frmConversionTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio09\frmCalculoInteres.resx">
+      <DependentUpon>frmCalculoInteres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio10\frmEcCuadratica.resx">
+      <DependentUpon>frmEcCuadratica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicio.resx">
+      <DependentUpon>frmInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_unad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llaves48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\procesar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\velocidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\distancia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiempo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagenes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vendedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divisas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temperatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcion.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
