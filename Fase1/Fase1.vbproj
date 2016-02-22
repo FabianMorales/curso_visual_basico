@@ -273,6 +273,30 @@
   <ItemGroup>
     <None Include="Resources\funcion.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remolque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_antiguo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto_policia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camion_bomberos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camion_carga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deportivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helicoptero.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
